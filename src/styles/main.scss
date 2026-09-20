@@ -1,0 +1,15 @@
+@use "./abstracts/variables";
+
+@use "./base/reset";
+@use "./base/typography";
+
+section {
+  min-height: 100dvh;
+  scroll-margin-top: 110px;
+}
+
+@media (max-width: 768px) {
+  section {
+    scroll-margin-top: 84px;
+  }
+}

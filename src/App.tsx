@@ -1,3 +1,4 @@
+import Hero from "./components/hero/Hero/Hero";
 import Navbar from "./components/navigation/Navbar";
 
 function App() {
@@ -6,9 +7,7 @@ function App() {
       <Navbar />
 
       <main>
-        <section id="home">
-          <h1>Benjamin.dev</h1>
-        </section>
+        <Hero />
 
         <section id="projects">
           <h2>Projects</h2>

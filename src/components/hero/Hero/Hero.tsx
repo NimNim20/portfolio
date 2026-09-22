@@ -1,9 +1,13 @@
+import headshot from "../../../assets/images/headshot.webp";
 import "./Hero.scss";
 
 function Hero() {
   return (
     <section className="hero" id="home">
       <div className="hero__container">
+        <div className="hero__image" aria-hidden="true">
+          <img src={headshot} alt="Image of me" />
+        </div>
         <div className="hero__content">
           <span className="hero__eyebrow">01 / DEVELOPER</span>
 

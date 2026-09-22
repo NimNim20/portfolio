@@ -34,7 +34,7 @@ function Navbar() {
 
         <ul className="navbar__links">
           <li>
-            <a href="#work">Work</a>
+            <a href="#projects">Projects</a>
           </li>
 
           <li>

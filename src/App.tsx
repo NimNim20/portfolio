@@ -1,5 +1,6 @@
 import Hero from "./components/hero/Hero/Hero";
 import Navbar from "./components/navigation/Navbar";
+import Stack from "./components/stack/Stack";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
 
       <main>
         <Hero />
+
+        <Stack />
 
         <section id="projects">
           <h2>Projects</h2>
